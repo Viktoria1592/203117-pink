@@ -232,7 +232,7 @@ img {
 
 .contest__title {
   margin: 0;
-  background-color: transparent;
+  background-color: #17212e;
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
@@ -517,7 +517,7 @@ img {
   @media (min-width: 1200px) {
     .features__list {
       width: 100%;
-      margin-left: 0;
+      margin-left: -20px;
       margin-top: 250px;
       padding-top: 60px;
       padding-left: 10px;
@@ -651,19 +651,20 @@ img {
       width: 940px;
       border: 2px solid #e5e5e5; }
       .form__fieldset--id {
-        width: 440px;
+        width: 50%;
         margin-left: 0;
         border: none;
         padding-left: 0;
-        padding-right: 5px;
+        padding-right: 25px;
         padding-top: 25px; }
       .form__fieldset--radio {
-        width: 440px;
+        width: 50%;
         margin-top: 35px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-        padding-bottom: 0; }
+        padding-bottom: 0;
+        padding-left: 40px; }
       .form__fieldset--contacts {
         margin-top: 5px;
         padding-left: 58px;
@@ -1060,8 +1061,8 @@ img {
   @media (min-width: 660px) {
     .gallery__list {
       width: 660px;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 0;
+      padding-right: 0;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1073,7 +1074,8 @@ img {
           flex-wrap: wrap; } }
   @media (min-width: 1200px) {
     .gallery__list {
-      width: 940px;
+      width: 960px;
+      margin-left: -10px;
       padding-left: 0;
       padding-right: 0; } }
 
@@ -1081,19 +1083,17 @@ img {
   outline: 1px solid red; }
   @media (min-width: 660px) {
     .gallery__item {
-      width: 300px; }
+      width: 50%; }
       .gallery__item--day {
-        width: 660px;
-        margin-left: -20px;
-        margin-right: -20px; } }
+        width: 660px; } }
   @media (min-width: 1200px) {
     .gallery__item {
-      width: 300px;
+      width: 33.3%;
       margin-bottom: 55px; }
       .gallery__item--day {
         width: 1200px;
-        margin-left: -130px;
-        margin-right: -130px;
+        margin-left: -120px;
+        margin-right: -120px;
         margin-bottom: 45px; } }
 
 .gallery__link {
@@ -1467,7 +1467,8 @@ img {
   padding: 0;
   width: 100%;
   outline: 1px solid green;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background-color: #ffffff; }
   @media (min-width: 660px) {
     .price__list {
       display: -webkit-box;
@@ -1480,7 +1481,6 @@ img {
       margin-bottom: 0; } }
 
 .price__item {
-  background-color: #ffffff;
   display: none; }
   .price__item:nth-child(2) {
     display: block; }
@@ -1815,7 +1815,7 @@ img {
       text-transform: none; } }
 
 .slider {
-  background-color: transparent; }
+  /*background-color: transparent;*/ }
 
 .social {
   background-color: transparent; }
