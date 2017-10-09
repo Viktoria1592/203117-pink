@@ -1272,14 +1272,15 @@ img {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s; }
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  background-repeat: no-repeat; }
   .download__link:hover, .download__link:focus {
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
   .download__link--apple {
     width: 47px;
     height: 57px;
-    background-image: url("../img/logo-apple.svg"); }
+    background-image: url("../../img/logo-apple.svg"); }
   .download__link--android {
     width: 43px;
     height: 48px;
