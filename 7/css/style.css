@@ -478,6 +478,13 @@ img {
   line-height: 30px;
   font-weight: 700; }
 
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  color: currentColor; }
+  .icon use {
+    fill: currentColor; }
+
 .slider--reviews .slider__item {
   display: none; }
   .slider--reviews .slider__item:nth-child(1) {
@@ -1103,11 +1110,8 @@ img {
   .controls__action--active, .controls__action--active:hover {
     opacity: 1;
     cursor: default; }
-  .controls__action--active svg {
-    fill: #d22856; }
-  @media (min-width: 660px) {
-    .controls__action svg {
-      fill: #d22856; } }
+  .controls__action--active {
+    color: #d22856; }
   @media (min-width: 660px) {
     .controls__action--crop svg {
       width: 24px;
@@ -1142,7 +1146,8 @@ img {
       padding-left: 6px; } }
   @media (min-width: 660px) {
     .controls__action {
-      opacity: 1; } }
+      opacity: 1;
+      color: #d22856; } }
 
 .copyright {
   background-color: transparent;
@@ -3455,7 +3460,8 @@ img {
   border: 3px solid rgba(40, 54, 69, 0.1);
   border-radius: 50%;
   -webkit-transition: all 0.2s;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  color: #d22856; }
   .social__link:hover, .social__link:focus {
     border: 3px solid #283645; }
   .social__link:active {
